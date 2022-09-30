@@ -142,12 +142,12 @@ hr {
 }
 
 ::selection {
-  background: #F20587; /* WebKit/Blink Browsers */
-  color: black;
+  background: #331133; /* WebKit/Blink Browsers */
+  color: #9360AC;
 }
 ::-moz-selection {
-  background: #F20587; /* Gecko Browsers */
-  color: black;
+  background: #331133; /* Gecko Browsers */
+  color: #9360AC;
 }
 
 .center {
