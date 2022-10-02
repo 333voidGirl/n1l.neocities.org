@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: "3270";
-    src: url("3270-Regular.woff") format('woff');
+    font-family: "Libmono";
+    src: url("LiberationMono.woff") format('woff');
 }
 
 @font-face {
@@ -35,7 +35,7 @@ h2 {
 
 h3 {
   text-align: center;
-  font-family: '3270', sans-serif;
+  font-family: 'Libmono', sans-serif;
   color: #7E1172;
   font-size: 150%;
   margin: -1%;
@@ -52,7 +52,7 @@ h4 {
 p, ul {
   font-size: 110%;
   text-align:center;
-  font-family: '3270', sans-serif;
+  font-family: 'Libmono', sans-serif;
   color: #b90065;
   margin: 1%;
 }
@@ -76,14 +76,14 @@ p3, ul3 {
 }
 
 a {
-  font-family: '3270', sans-serif;
+  font-family: 'Libmono', sans-serif;
   color: black;
   background: #F20587;
   margin: 1%;
 }
 
 a2 {
-  font-family: '3270', sans-serif;
+  font-family: 'Libmono', sans-serif;
   color: black;
   font-size: 120%;
   background: #F20587;
@@ -92,7 +92,7 @@ a2 {
 
 body {
   background-color: black;
-  font-family: '3270', sans-serif;
+  font-family: 'Libmono', sans-serif;
   text-align:center;
   background-image: url("/background2alt2.gif"), url("/background2-flipalt2.gif");
   background-position: left top, right top;
@@ -102,7 +102,7 @@ body {
 }
 
 pre {
-  font-family: '3270', sans-serif;
+  font-family: 'Libmono', sans-serif;
   color: #F20587;
   white-space: pre;
   text-align:center;
