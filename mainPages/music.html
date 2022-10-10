@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    
+    <meta name="twitter:title" content="n1l.neocities.org">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="::):: void and nil ::)::">
+    <meta name="twitter:image" content="/imgsAssets/n1l-card.png">
+    
+    <link rel="icon" type="image/x-icon" href="/imgsAssets/favicon.ico">
+<link href="/style/main.css" rel="stylesheet" type="text/css" media="all">
+<div class="container">
+
+    <h1>Music</h1>
+<p2>𖤐𖤐𖤐</p2>
+<img id="logo" src="/imgsAssets/logo.svg" width="116px" class="center" style="transform: rotate(241deg);">
+<script>
+    const logo = document.getElementById("logo");
+    const spinSpeed = 0.8;
+    let angle = 0;
+    setInterval(() => {
+        logo.style.transform = `rotate(${angle}deg)`;
+        angle = angle + spinSpeed > 360 ? angle - 360 + spinSpeed : angle + spinSpeed;
+    }
+    , 5);
+</script>
+
+    <h2><a href="/">Home</a></h2>
+<br>
+<hr>
+<br>
+<h4>Music</h4>
+
+ <p>
+      <!-- <a href="link">text</a> -->
+      <a href="https://333voidgirl.bandcamp.com/" target="_blank">Bandcamp</a>
+      <br>
+      <a href="https://open.spotify.com/artist/4K15KQLPpL8XmYoAENwDgH" target="_blank">Spotify</a>
+      <br>
+      <a href="https://soundcloud.com/voidandnil" target="_blank">SoundCloud</a>
+      <br>
+      <a href="https://www.youtube.com/channel/UCxr1dofb9USt-WkHRdiVgTA" target="_blank">YouTube</a>
+    </p>
+
+
+<br>
+<hr>
+<br>
+<p><img src="/imgsAssets/copyleft.svg" width="15" /> There is no copyright but the right to copy
+<br>
+2004 - <span id="copyright_year">err</span> <script>document.getElementById("copyright_year").innerHTML = new Date(Date.now()).getYear() + 1900 </script></p>
+
+</div>
+</html>
