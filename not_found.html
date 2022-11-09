@@ -14,13 +14,23 @@
     <link href="/style/main.css" rel="stylesheet" type="text/css" media="all">
 <div class="container">
 
+<style>
+body {
+  background-image: url("/imgsAssets/404.gif");
+  background-position: left top, right top;
+  background-repeat: repeat;
+  background-size: 16px, 6px;
+  margin: 1%;
+}
+</style>
+
     <h1>404</h1>
     <p2>𖤐𖤐𖤐</p2>
 
 <img id="logo" src="/imgsAssets/logo.svg" width="116px" class="center" style="transform: rotate(241deg);">
 <script>
     const logo = document.getElementById("logo");
-    const spinSpeed = 0.8;
+    const spinSpeed = 0.3;
     let angle = 0;
     setInterval(() => {
         logo.style.transform = `rotate(${angle}deg)`;
@@ -34,7 +44,7 @@
 <br>
 <hr>
 <br>
-<h3><b>The requested page was not found.</b></h3>
+<p><b>The requested page was not found.</b></p>
 <br>
 <hr>
 <br>
