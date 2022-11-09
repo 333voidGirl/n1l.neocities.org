@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Unifraktur";
+    src: url("/imgsAssets/fonts/UnifrakturMaguntia-Book.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Unifraktur2";
+    src: url("/imgsAssets/fonts/UnifrakturCook-Light.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Libmono";
+    src: url("/imgsAssets/fonts/LiberationMono.woff") format('woff');
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Unifraktur', cursive;
+  color: #F20587;
+  font-size: 400%;
+  margin: 1%;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Unifraktur', cursive;
+  color: #7E1172;
+  font-size: 130%;
+  margin: -1%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Libmono', sans-serif;
+  color: #7E1172;
+  font-size: 150%;
+  margin: -1%;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Unifraktur', cursive;
+  color: #F20587;
+  font-size: 200%;
+}
+
+p, ul {
+  font-size: 120% ;
+  color: #b90065;
+  margin: 1%;
+}
+
+a {
+  font-family: 'Libmono', sans-serif;
+  color: black;
+  font-size: 120%;
+  background: #F20587;
+}
+
+a2 {
+  font-family: 'Libmono', sans-serif;
+  color: black;
+  font-size: 120%;
+  background: black;
+}
+
+body {
+  background-color: black;
+  font-family: 'Libmono', sans-serif;
+  color: #b90065;
+  text-align: center;
+  font-size: 100%;
+}
+
+pre {
+  font-family: 'Libmono', sans-serif;
+  color: #b90065;
+  font-size: 120%;
+  white-space: pre;
+}
+
+span2 {
+  text-align: center;
+  font-family: 'Unifraktur2', cursive;
+  color: #F20587;
+  font-size: 100%;
+}
+
+hr {
+  color: #F20587;
+  border-color: #F20587;
+  width:50%;text-align:center;margin-left:5
+}
+
+div2 {
+  background: #000000;
+  border: 1px solid #F20587;
+  width: 50vw;
+  margin: auto;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  overflow: scroll;
+}
+
+@keyframes MoveUpDown {
+            0%, 100% {
+            top: 20%;
+            }
+            50% {
+            top: 25%;
+            }
+}
+
+::selection {
+  background: #F20587; /* WebKit/Blink Browsers */
+  color: black;
+}
+::-moz-selection {
+  background: #F20587; /* Gecko Browsers */
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  cursor: url(https://cdn.discordapp.com/attachments/924601621659410442/1020541129101410304/cursor1.cur), auto !important;
+  }
