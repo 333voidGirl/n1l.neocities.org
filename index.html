@@ -224,7 +224,13 @@
           "name": "Email",
           "children": [
             {
-              "name": "333voidGirl@proton.me"
+              "name": "333voidGirl@proton.me",
+              "children": [
+                {
+                  "name": "PGP.html",
+                  "url": "/tree/4/email/333voidGirl@proton.me/pgp.html"
+                }
+              ]
             }
           ]
         },
@@ -299,11 +305,12 @@
     list.forEach((item, i) => {
       const downChar = i != list.length - 1 ? '├' : '└';
       let tabsStr = "";
+      const indent = 6;
       for (t of tabs) {
         if (t) {
-          tabsStr += "│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+          tabsStr += "│" + repeatedStr("&nbsp;", indent - 1);
         } else {
-          tabsStr += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+          tabsStr += repeatedStr("&nbsp;", indent);
         }
       }
       ret += `${tabsStr}${downChar}── `;

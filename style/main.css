@@ -137,6 +137,10 @@ hr {
   display: flex;
 }
 
+.folder:hover {
+  color: #7E1172;
+}
+
 * {
   cursor: url(/imgsAssets/cursor1.png), auto !important;
   }
