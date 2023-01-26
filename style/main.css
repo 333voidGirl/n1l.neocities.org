@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: "Libmono";
-    src: url("/imgsAssets/fonts/LiberationMono.woff") format('woff');
+    src: url("/imgsAssets/fonts/ibm.woff") format('woff');
 }
 
 @font-face {
@@ -33,7 +33,7 @@ h2 {
 
 h3 {
   font-family: 'LibMono', sans-serif;
-  color: #7E1172;
+  color: #D15CFF;
   font-size: 150%;
   margin: -1%;
 }
@@ -46,35 +46,21 @@ h4 {
 }
 
 p, ul {
-  font-size: 100%;
+  font-size: 110%;
   font-family: 'LibMono', sans-serif;
   color: #b90065;
   margin: 1%;
 }
 
-p2, ul2 {
-  font-size: 333%;
-  color: #7E1172;
-  font-family: 'Bamum', sans-serif;
-  position: relative;
-  bottom: 20px;
-  margin: 1%;
-}
-
-p3, ul3 {
-  font-size: 150%;
-  color: #7E1172;
-  font-family: 'Unifraktur2', sans-serif;
-  margin: 1%;
-}
-
 a {
-  color: #f20587;
+  color: #D15CFF;
   text-decoration: none;
 }
 
 a:hover {
   font-weight: bold;
+  padding: 1px;
+  border: 1px solid #D15CFF;
 }
 
 body {
@@ -122,6 +108,7 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 
 .text {
@@ -138,7 +125,9 @@ hr {
 }
 
 .folder:hover {
-  color: #7E1172;
+  color: #f20587;
+  padding: 1px;
+  border: 1px solid #f20587;
 }
 
 * {
