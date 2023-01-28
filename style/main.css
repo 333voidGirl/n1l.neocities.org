@@ -4,12 +4,7 @@
 }
 
 @font-face {
-    font-family: "Unifraktur2";
-    src: url("/imgsAssets/fonts/UnifrakturCook-Light.woff") format('woff');
-}
-
-@font-face {
-    font-family: "Libmono";
+    font-family: "IBM";
     src: url("/imgsAssets/fonts/ibm.woff") format('woff');
 }
 
@@ -25,29 +20,16 @@ h1 {
   margin: 1%;
 }
 
-h2 {
-  font-family: 'Unifraktur', cursive;
-  color: #F20587;
+p, ul {
+  font-size: 110%;
+  font-family: 'IBM', sans-serif;
+  color: #b90065;
   margin: 1%;
 }
 
-h3 {
-  font-family: 'LibMono', sans-serif;
-  color: #D15CFF;
-  font-size: 150%;
-  margin: -1%;
-}
-
-h4 {
-  font-family: 'Unifraktur', cursive;
-  color: #F20587;
-  font-size: 200%;
-  margin: -1%;
-}
-
-p, ul {
-  font-size: 110%;
-  font-family: 'LibMono', sans-serif;
+p2 {
+  font-size: 90%;
+  font-family: 'IBM', sans-serif;
   color: #b90065;
   margin: 1%;
 }
@@ -75,16 +57,9 @@ body {
 }
 
 pre {
-  font-family: 'LibMono', sans-serif;
+  font-family: 'IBM', sans-serif;
   color: #F20587;
   white-space: pre;
-  font-size: 100%;
-  margin: 1%;
-}
-
-span2 {
-  font-family: 'Unifraktur2', cursive;
-  color: #F20587;
   font-size: 100%;
   margin: 1%;
 }
